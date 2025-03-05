@@ -13,15 +13,15 @@ type: custom:mushroom-chips-card
 alignment: center
 chips:
   - content: |-
-      {% if states('light.gruppo_luci_casa') == "on" %}
-        {{ states('sensor.counter_luci_accese') }}
+      {% if states('light.gruppo_luci_casa') == "on" %}     // Gruppo luci casa
+        {{ states('sensor.counter_luci_accese') }}          // Sensore Template luci accese 
       {% else %}
-        {{ states('sensor.counter_luci_accese') }}
+        {{ states('sensor.counter_luci_accese') }}          // Sensore template luci accese 
       {% endif %}
     entity: light.gruppo_luci_casa
     icon: phu:bulbs-classic
     icon_color: |-
-      {% if states('light.gruppo_luci_casa') == "on" %}
+      {% if states('light.gruppo_luci_casa') == "on" %}     // Gruppo luci casa
        yellow 
       {% endif %}
     tap_action:
