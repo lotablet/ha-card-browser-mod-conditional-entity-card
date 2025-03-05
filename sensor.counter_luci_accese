@@ -1,0 +1,13 @@
+template:
+  - sensor:
+    - name: "Counter Luci Accese"
+      unique_id: counter_luci_accese
+      icon: mdi:lightbulb-on-outline
+      state: >
+        {% set lights = [
+            states('light.luce_1'),
+            states('light.luce_2'),
+            states('light.luce_3'),
+            states('light.luce_4')
+            ] %}
+        {{ lights | select('eq', 'on') | list | count }}
