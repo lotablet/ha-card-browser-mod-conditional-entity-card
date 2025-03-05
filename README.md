@@ -39,13 +39,16 @@ chips:
                     state: "on"                             //Stato
                 card:
                   type: custom:mushroom-entity-card
-                  entity: light.pulsante_sgabuzzino         //Nome entità 
-                  name: Luce Sgabuzzino
+                  entity: light.luce_1                      //Nome entità 
+                  name: Luce 1
                   hold_action:
                     action: more-info
                   tap_action:
                     action: toggle                          //Fine codice
-          size: fullscreen                                  // Dimensione della finestra di browser mod (possibili modalità: normal, wide, fullscreen)
+                 ///////////////////////////////////////////////////////
+                 // ... continuare con il resto delle luci di casa... //
+                 ///////////////////////////////////////////////////////
+          size: fullscreen   // Dimensione di browser mod (possibili modalità: normal, wide, fullscreen)
           dismissable: true
     type: template
 ```
