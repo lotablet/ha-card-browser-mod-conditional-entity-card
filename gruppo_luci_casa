@@ -1,0 +1,9 @@
+light:
+  - platform: group
+    name: Gruppo Luci Casa
+    unique_id: gruppo_luci_casa
+    entities:
+        - light.luce_1
+        - light.luce_2
+        - light.luce_3
+        - light.luce_4
