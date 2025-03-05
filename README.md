@@ -33,10 +33,10 @@ chips:
           content:
             type: vertical-stack
             cards:
-              - type: conditional                           //Inizio codice
+              - type: conditional                           // <----- Inizio codice
                 conditions:
                   - entity: light.pulsante_sgabuzzino       //Nome entità 
-                    state: "on"                             //Stato
+                    state: "on"
                 card:
                   type: custom:mushroom-entity-card
                   entity: light.luce_1                      //Nome entità 
@@ -44,7 +44,7 @@ chips:
                   hold_action:
                     action: more-info
                   tap_action:
-                    action: toggle                          //Fine codice
+                    action: toggle                          // <----- Fine codice
                  ///////////////////////////////////////////////////////
                  // ... continuare con il resto delle luci di casa... //
                  ///////////////////////////////////////////////////////
@@ -53,6 +53,10 @@ chips:
     type: template
 ```
 
-Ora non ci basterà che ripetere il codice dal commento //Inizio codice al commento //Fine codice con tutte le entità che ci interessa vedere lo stato di ON sul popup.
+Ora non ci basterà che ripetere il codice dal commento "Inizio codice" al commento "Fine codice" con tutte le entità che ci interessa vedere lo stato di ON sul popup.
 
 Se ti piace il mio lavoro non scordarti di seguirmi su Tiktok e Youtube [LINK](https://linktr.ee/lotablet)
+
+
+
+
