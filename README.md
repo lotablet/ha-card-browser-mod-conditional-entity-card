@@ -18,7 +18,7 @@ chips:
       {% else %}
         {{ states('sensor.counter_luci_accese') }}          // Sensore template luci accese 
       {% endif %}
-    entity: light.gruppo_luci_casa
+    entity: light.gruppo_luci_casa                          // Gruppo luci casa
     icon: phu:bulbs-classic
     icon_color: |-
       {% if states('light.gruppo_luci_casa') == "on" %}     // Gruppo luci casa
