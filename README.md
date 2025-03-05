@@ -4,6 +4,7 @@ Necessari i seguenti componenti da HACS:
   - **Browser Mod**
   - **Mushroom Card**
 
+Il gruppo di luci e sensore li trovate sopra.
 
 *
 ## Attenzione: Ho inserito dei commenti "//" per far capire il funzionamento della card, potete cancellarli una volta capito il funzionamento della card.
