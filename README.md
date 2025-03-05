@@ -1,13 +1,13 @@
-Una card per Home Assitant che raggruppa e mostra i dispositivi in base allo stato.
+# **Una card per Home Assitant che raggruppa e mostra i dispositivi in base allo stato.**
 
 Necessari i seguenti componenti da HACS:
-  - Browser Mod
-  - Mushroom Card
+  - **Browser Mod**
+  - **Mushroom Card**
 
 
-Ho inserito i commenti "//" per far capire il funzionamento della card
+*
+## Attenzione: Ho inserito dei commenti "//" per far capire il funzionamento della card, potete cancellarli una volta capito il funzionamento della card.
 
-Esempio:
 ```
 type: custom:mushroom-chips-card
 alignment: center
@@ -49,4 +49,7 @@ chips:
           dismissable: true
     type: template
 ```
-Ora non ci basteràche ripetere il codice da //Inizio codice a //Fine codice con tutte le entità che ci interessa vedere lo stato di ON sul popup.
+
+Ora non ci basterà che ripetere il codice dal commento //Inizio codice al commento //Fine codice con tutte le entità che ci interessa vedere lo stato di ON sul popup.
+
+Se ti piace il mio lavoro non scordarti di seguirmi su Tiktok e Youtube [LINK](https://linktr.ee/lotablet)
