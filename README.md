@@ -1,3 +1,6 @@
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/lotablet)
+
+
 # **Una card per Home Assitant che raggruppa e mostra i dispositivi in base allo stato.**
 
 Necessari i seguenti componenti da HACS:
